@@ -1,0 +1,20 @@
+observed_properties = {
+    "Depth to Water Below Ground Surface": {
+        "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/": "Depth to Water Below Ground Surface",
+        "https://labs.waterdata.usgs.gov/sta/v1.1/": "Depth to water level, feet below land surface",
+    },
+    "Discharge, cubic feet per second": {
+        "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/": "OSERealTimeDischarge",
+        "https://labs.waterdata.usgs.gov/sta/v1.1/": "Discharge, cubic feet per second",
+    },
+    "Gage height, feet": {
+        "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/": "OSERealTimeGageHeight",
+        "https://labs.waterdata.usgs.gov/sta/v1.1/": "Gage height, feet",
+    },
+    "Adjusted Groundwater Head": {
+        "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/": "Adjusted Groundwater Head",
+    },
+    "Raw Depth to Water": {
+        "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/": "Raw Depth to Water",
+    },
+}
