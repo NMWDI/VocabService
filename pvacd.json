@@ -1,4 +1,4 @@
-{locations: [{
+{"locations": [{
       "description": "Stream",
       "encodingType": "application/vnd.geo+json",
       "@iot.id": "f70a1f72-2d24-11ec-84b5-9747f797b70e",
