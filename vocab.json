@@ -1,22 +1,27 @@
 {
-  "topic": "Water Quantity",
-  "observed_properties": [
-    {
-      "name": "Depth to Water Below Ground Surface",
-      "urls": [
+    "topics":[
         {
-          "agency": "NMWDI",
-          "url": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/",
-          "ObservedProperty": "Depth to Water Below Ground Surface",
-          "comment": ""
-        },
-        {
-          "agency": "USGS",
-          "url": "https://labs.waterdata.usgs.gov/sta/v1.1/",
-          "ObservedProperty": "Depth to water level, feet below land surface",
-          "comment": ""
+            "topic": "Water Quantity",
+            "observed_properties": [
+                {
+                    "name": "Depth to Water Below Ground Surface",
+                    "urls": [
+                        {
+                            "agency": "NMWDI",
+                            "url": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/",
+                            "ObservedProperty": "Depth to Water Below Ground Surface",
+                            "comment": ""
+                        },
+                        {
+                            "agency": "USGS",
+                            "url": "https://labs.waterdata.usgs.gov/sta/v1.1/",
+                            "ObservedProperty": "Depth to water level, feet below land surface",
+                            "comment": ""
+                        }
+                    ]
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }
+
