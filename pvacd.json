@@ -1,4 +1,1584 @@
-{"locations": [{
+{"locations": [
+  
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8758,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.42075,
+        32.59563
+      ]
+    },
+    "name": "RA-3202 S3",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "226",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8758)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8758)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8758)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8759,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.411259,
+        32.595145
+      ]
+    },
+    "name": "Big Shallow",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "147",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3291.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8759)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8759)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8759)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8760,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "BOOSTER PUMP",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "227",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8760)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8760)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8760)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8761,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5010833,
+        32.5718167
+      ]
+    },
+    "name": "Windmill",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "182",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3497.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8761)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8761)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8761)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8762,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.38265,
+        32.62683
+      ]
+    },
+    "name": "Well # 17",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "193",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3304.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8762)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8762)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8762)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8763,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "BOR North Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "148",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8763)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8763)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8763)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8764,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.3798741,
+        32.6369681
+      ]
+    },
+    "name": "SKP-1",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "203",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3307.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8764)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8764)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8764)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8765,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.38797,
+        32.62292
+      ]
+    },
+    "name": "No. 2 Shallow",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "161",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3313.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8765)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8765)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8765)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8766,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.3812241,
+        32.6390681
+      ]
+    },
+    "name": "SKP-2",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "204",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3310.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8766)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8766)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8766)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8767,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.3983276,
+        32.6524705
+      ]
+    },
+    "name": "Joe Cox Windmill",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "175",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3354.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8767)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8767)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8767)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8768,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.38311,
+        32.62726
+      ]
+    },
+    "name": "Alfredo",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "162",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3312.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8768)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8768)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8768)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8769,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.6530525,
+        32.6018088
+      ]
+    },
+    "name": "Cass Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "183",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3937.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8769)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8769)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8769)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8770,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.557321,
+        32.6369814
+      ]
+    },
+    "name": "Middle Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "200",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3625.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8770)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8770)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8770)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8771,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.43073,
+        32.58392
+      ]
+    },
+    "name": "Piez-D",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "179",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3324.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8771)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8771)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8771)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8772,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.44664,
+        32.59484
+      ]
+    },
+    "name": "J",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "157",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3381.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8772)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8772)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8772)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8773,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.420222,
+        32.607333
+      ]
+    },
+    "name": "B",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "151",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3345.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8773)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8773)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8773)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8774,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.42077,
+        32.60363
+      ]
+    },
+    "name": "Feedlot",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "150",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3349.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8774)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8774)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8774)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8775,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "LEWIS N DIVERSION",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "228",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8775)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8775)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8775)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8776,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.42072,
+        32.59355
+      ]
+    },
+    "name": "Domestic",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "195",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3309.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8776)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8776)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8776)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8777,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "Rockhouse",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "176",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8777)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8777)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8777)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8778,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.243048,
+        32.354188
+      ]
+    },
+    "name": "OSE - Water Level Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "189",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3282.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8778)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8778)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8778)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8779,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "BOR South Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "149",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8779)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8779)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8779)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8780,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4462,
+        32.57849
+      ]
+    },
+    "name": "Little Price",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "165",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3363.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8780)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8780)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8780)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8781,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "Domestic - Genzling",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "178",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8781)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8781)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8781)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8782,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "POINT PIPELINE",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "229",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8782)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8782)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8782)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8783,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.40839,
+        32.5949
+      ]
+    },
+    "name": "Field 11",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "196",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3284.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8783)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8783)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8783)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8784,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4,
+        32.6
+      ]
+    },
+    "name": "Pickett",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "190",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx"
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8784)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8784)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8784)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8785,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4155038,
+        32.5134015
+      ]
+    },
+    "name": "DH-103",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "208",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3383.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8785)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8785)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8785)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8786,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.43073,
+        32.58392
+      ]
+    },
+    "name": "Piez-I",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "184",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3324.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8786)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8786)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8786)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8787,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4119223,
+        32.5182699
+      ]
+    },
+    "name": "Shomaker",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "213",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3361.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8787)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8787)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8787)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8788,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.423392,
+        32.5547818
+      ]
+    },
+    "name": "Terpening Windmill",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "192",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3399.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8788)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8788)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8788)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8789,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.6181414,
+        32.5987792
+      ]
+    },
+    "name": "Black Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "186",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3859.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8789)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8789)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8789)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8790,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4190111,
+        32.545115
+      ]
+    },
+    "name": "Terpening Windmill Stock Morri",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "177",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3429.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8790)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8790)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8790)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8791,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.408554,
+        32.5030357
+      ]
+    },
+    "name": "DH-166",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "174",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3374.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8791)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8791)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8791)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8792,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.37815,
+        32.62536
+      ]
+    },
+    "name": "Bobbies",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "164",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3294.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8792)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8792)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8792)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8793,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.408977,
+        32.595113
+      ]
+    },
+    "name": "7B",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "205",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3286.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8793)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8793)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8793)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8794,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.38256,
+        32.61627
+      ]
+    },
+    "name": "SRI Well Yellow",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "180",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3289.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8794)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8794)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8794)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8795,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.43073,
+        32.58392
+      ]
+    },
+    "name": "Piez-S",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "202",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3324.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8795)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8795)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8795)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8796,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5004191,
+        32.4533831
+      ]
+    },
+    "name": "C1136 Indian Hills Bar",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "199",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3680.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8796)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8796)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8796)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8797,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4036528,
+        32.515094
+      ]
+    },
+    "name": "DH-102",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "207",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3325.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8797)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8797)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8797)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8798,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.3819,
+        32.6149
+      ]
+    },
+    "name": "SRI Well Sylvester",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "191",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3292.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8798)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8798)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8798)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8799,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4084124,
+        32.5198777
+      ]
+    },
+    "name": "DH-107",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "187",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3346.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8799)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8799)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8799)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8800,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4554444,
+        32.5660833
+      ]
+    },
+    "name": "Terpening Shallow",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "212",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3403.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8800)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8800)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8800)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8801,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.420117,
+        32.598133
+      ]
+    },
+    "name": "Mateo",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "170",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3315.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8801)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8801)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8801)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8802,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5217255,
+        32.6483277
+      ]
+    },
+    "name": "HQ Home Houghtaling",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "209",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3602.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8802)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8802)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8802)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8803,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4331621,
+        32.5569427
+      ]
+    },
+    "name": "DH-135",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "173",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3424.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8803)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8803)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8803)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8804,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.449333,
+        32.584777
+      ]
+    },
+    "name": "L",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "159",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3364.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8804)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8804)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8804)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8805,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.38248,
+        32.62708
+      ]
+    },
+    "name": "NA1",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "167",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3319.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8805)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8805)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8805)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8806,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5065616,
+        32.5586955
+      ]
+    },
+    "name": "New East Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "188",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3503.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8806)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8806)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8806)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8807,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4467543,
+        32.5514193
+      ]
+    },
+    "name": "OW-2",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "201",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3529.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8807)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8807)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8807)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8808,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.457,
+        32.5607222
+      ]
+    },
+    "name": "Terpening NE of Home",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "181",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3444.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8808)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8808)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8808)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8809,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5062345,
+        32.5586418
+      ]
+    },
+    "name": "Old East Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "210",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3503.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8809)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8809)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8809)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8810,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5348945,
+        32.5499388
+      ]
+    },
+    "name": "Barn Well (Lower Ranch)",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "198",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3581.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8810)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8810)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8810)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8811,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.43006,
+        32.58369
+      ]
+    },
+    "name": "G",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "154",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3324.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8811)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8811)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8811)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8812,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.420555,
+        32.592777
+      ]
+    },
+    "name": "C",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "152",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3308.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8812)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8812)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8812)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8813,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4583971,
+        32.5592022
+      ]
+    },
+    "name": "Terpening HQ",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "211",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3455.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8813)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8813)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8813)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8814,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.43783,
+        32.59003
+      ]
+    },
+    "name": "I",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "156",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3352.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8814)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8814)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8814)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8815,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.391416,
+        32.617055
+      ]
+    },
+    "name": "Q",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "160",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3282.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8815)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8815)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8815)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8816,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.437305,
+        32.577611
+      ]
+    },
+    "name": "H",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "155",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3350.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8816)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8816)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8816)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8817,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.5188533,
+        32.6363856
+      ]
+    },
+    "name": "Yates Well (Houghtaling)",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "194",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3547.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8817)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8817)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8817)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8818,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.447267,
+        32.577317
+      ]
+    },
+    "name": "Big Price",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "169",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3363.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8818)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8818)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8818)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8819,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.39022,
+        32.62667
+      ]
+    },
+    "name": "E",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "153",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3312.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8819)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8819)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8819)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8820,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.381996,
+        32.616653
+      ]
+    },
+    "name": "NA2",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "168",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3320.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8820)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8820)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8820)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8821,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.446806,
+        32.599822
+      ]
+    },
+    "name": "School House",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "197",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3390.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8821)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8821)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8821)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8822,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.41835,
+        32.600583
+      ]
+    },
+    "name": "Point",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "171",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3315.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8822)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8822)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8822)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8823,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4624556,
+        32.5789809
+      ]
+    },
+    "name": "Terpening North Stock",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "206",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3419.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8823)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8823)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8823)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8824,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.4787667,
+        32.5816818
+      ]
+    },
+    "name": "Terpening Stock NW Well",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "185",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3472.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8824)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8824)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8824)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 8825,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.44358,
+        32.60186
+      ]
+    },
+    "name": "K",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "158",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3402.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8825)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8825)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(8825)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
+    "description": "No Description",
+    "encodingType": "application/vnd.geo+json",
+    "@iot.id": 9382,
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        -104.447267,
+        32.577317
+      ]
+    },
+    "name": "Price",
+    "properties": {
+      "agency": "ISC_SEVEN_RIVERS",
+      "source_id": "169",
+      "source_api": "https://nmisc-wf.gladata.com/api/getMonitoringPoints.ashx",
+      "groundSurfaceElevationFeet": 3363.0
+    },
+    "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9382)",
+    "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9382)/HistoricalLocations",
+    "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9382)/Things",
+    "source": "isc_seven_rivers"
+  },
+  {
       "description": "Stream",
       "encodingType": "application/vnd.geo+json",
       "@iot.id": "f70a1f72-2d24-11ec-84b5-9747f797b70e",
