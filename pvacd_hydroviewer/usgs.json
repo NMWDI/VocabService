@@ -127,7 +127,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1275bfe0-2d26-11ec-a8de-cbe339f6100c')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1275bfe0-2d26-11ec-a8de-cbe339f6100c')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Canal",
@@ -256,7 +256,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1275bfe0-2d26-11ec-a8de-cbe339f6100c')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1275bfe0-2d26-11ec-a8de-cbe339f6100c')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -371,7 +371,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('127f4c82-2d25-11ec-94ca-f7d7b0b332af')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('127f4c82-2d25-11ec-94ca-f7d7b0b332af')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -486,7 +486,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('127f4c82-2d25-11ec-94ca-f7d7b0b332af')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('127f4c82-2d25-11ec-94ca-f7d7b0b332af')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -601,7 +601,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1579d154-2d26-11ec-bee6-336b32000c3c')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1579d154-2d26-11ec-bee6-336b32000c3c')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -716,7 +716,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1579d154-2d26-11ec-bee6-336b32000c3c')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1579d154-2d26-11ec-bee6-336b32000c3c')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Lake",
@@ -818,7 +818,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('169a21aa-2d27-11ec-b8df-977dae2aeb5c')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('169a21aa-2d27-11ec-b8df-977dae2aeb5c')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -947,7 +947,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1f4fc67a-2d2b-11ec-84b5-4b086c757fe2')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1f4fc67a-2d2b-11ec-84b5-4b086c757fe2')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -1076,7 +1076,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1f4fc67a-2d2b-11ec-84b5-4b086c757fe2')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('1f4fc67a-2d2b-11ec-84b5-4b086c757fe2')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Lake",
@@ -1146,7 +1146,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('40435974-2d2a-11ec-a97d-2b5f85ff704f')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('40435974-2d2a-11ec-a97d-2b5f85ff704f')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Canal",
@@ -1275,7 +1275,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('463eb42c-2d2a-11ec-bee6-f7b231551f34')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('463eb42c-2d2a-11ec-bee6-f7b231551f34')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Canal",
@@ -1404,7 +1404,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('463eb42c-2d2a-11ec-bee6-f7b231551f34')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('463eb42c-2d2a-11ec-bee6-f7b231551f34')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -1533,7 +1533,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6b5cee96-2d24-11ec-92ff-571457978b80')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6b5cee96-2d24-11ec-92ff-571457978b80')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -1662,7 +1662,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6b5cee96-2d24-11ec-92ff-571457978b80')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6b5cee96-2d24-11ec-92ff-571457978b80')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -1791,7 +1791,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6ed7a214-2d24-11ec-87a2-8f3f7aa7318a')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6ed7a214-2d24-11ec-87a2-8f3f7aa7318a')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -1920,7 +1920,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6ed7a214-2d24-11ec-87a2-8f3f7aa7318a')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6ed7a214-2d24-11ec-87a2-8f3f7aa7318a')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2049,7 +2049,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6faa0a66-2d28-11ec-8ec7-eb1bf54a3244')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6faa0a66-2d28-11ec-8ec7-eb1bf54a3244')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2178,7 +2178,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6faa0a66-2d28-11ec-8ec7-eb1bf54a3244')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('6faa0a66-2d28-11ec-8ec7-eb1bf54a3244')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Canal",
@@ -2277,7 +2277,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('753c0984-2d28-11ec-87a2-7f6f369d1f30')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('753c0984-2d28-11ec-87a2-7f6f369d1f30')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Canal",
@@ -2376,7 +2376,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('753c0984-2d28-11ec-87a2-7f6f369d1f30')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('753c0984-2d28-11ec-87a2-7f6f369d1f30')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Lake",
@@ -2446,7 +2446,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7b214df0-2d28-11ec-8ea5-83b13a577f5f')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7b214df0-2d28-11ec-8ea5-83b13a577f5f')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2575,7 +2575,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7f5ffab8-2d25-11ec-9852-0bf805278cc2')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7f5ffab8-2d25-11ec-9852-0bf805278cc2')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2704,7 +2704,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7f5ffab8-2d25-11ec-9852-0bf805278cc2')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('7f5ffab8-2d25-11ec-9852-0bf805278cc2')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2833,7 +2833,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('82ca981a-2d26-11ec-a1a0-7be262879783')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('82ca981a-2d26-11ec-a1a0-7be262879783')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -2962,7 +2962,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('82ca981a-2d26-11ec-a1a0-7be262879783')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('82ca981a-2d26-11ec-a1a0-7be262879783')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Well",
@@ -3081,7 +3081,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('a1074638-2d27-11ec-bee6-ab7553e0f24e')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('a1074638-2d27-11ec-bee6-ab7553e0f24e')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3212,7 +3212,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('b6f3ccb8-2d28-11ec-9852-5f6c57cd7679')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('b6f3ccb8-2d28-11ec-9852-5f6c57cd7679')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3343,7 +3343,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('b6f3ccb8-2d28-11ec-9852-5f6c57cd7679')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('b6f3ccb8-2d28-11ec-9852-5f6c57cd7679')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3472,7 +3472,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c04b3950-2d27-11ec-8b30-834c8cdf273a')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c04b3950-2d27-11ec-8b30-834c8cdf273a')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3601,7 +3601,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c04b3950-2d27-11ec-8b30-834c8cdf273a')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c04b3950-2d27-11ec-8b30-834c8cdf273a')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3730,7 +3730,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c183ec0e-2d27-11ec-9852-5bc9bcd8cecd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c183ec0e-2d27-11ec-9852-5bc9bcd8cecd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3859,7 +3859,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c183ec0e-2d27-11ec-9852-5bc9bcd8cecd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c183ec0e-2d27-11ec-9852-5bc9bcd8cecd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -3988,7 +3988,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c30416a8-2d27-11ec-8ec7-e7f45a491200')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c30416a8-2d27-11ec-8ec7-e7f45a491200')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4117,7 +4117,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c30416a8-2d27-11ec-8ec7-e7f45a491200')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('c30416a8-2d27-11ec-8ec7-e7f45a491200')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4246,7 +4246,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('df5aeb74-2d27-11ec-94ca-cbeb6b6719fd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('df5aeb74-2d27-11ec-94ca-cbeb6b6719fd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4375,7 +4375,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('df5aeb74-2d27-11ec-94ca-cbeb6b6719fd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('df5aeb74-2d27-11ec-94ca-cbeb6b6719fd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4504,7 +4504,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('e822c556-2d27-11ec-8ea5-eb46fabe5c50')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('e822c556-2d27-11ec-8ea5-eb46fabe5c50')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4633,7 +4633,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('e822c556-2d27-11ec-8ea5-eb46fabe5c50')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('e822c556-2d27-11ec-8ea5-eb46fabe5c50')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4762,7 +4762,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f3b0484c-2d24-11ec-92ff-13f9ecf718a5')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f3b0484c-2d24-11ec-92ff-13f9ecf718a5')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -4891,7 +4891,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f3b0484c-2d24-11ec-92ff-13f9ecf718a5')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f3b0484c-2d24-11ec-92ff-13f9ecf718a5')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -5126,7 +5126,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -5361,7 +5361,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -5596,7 +5596,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -5831,7 +5831,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('f70a1f72-2d24-11ec-84b5-9747f797b70e')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -5959,7 +5959,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fa0d7912-2d24-11ec-b8df-bf9b19e63edd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fa0d7912-2d24-11ec-b8df-bf9b19e63edd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -6087,7 +6087,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fa0d7912-2d24-11ec-b8df-bf9b19e63edd')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fa0d7912-2d24-11ec-b8df-bf9b19e63edd')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -6216,7 +6216,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fd2e9892-2d24-11ec-9852-e336d7653ff6')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fd2e9892-2d24-11ec-9852-e336d7653ff6')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -6345,7 +6345,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fd2e9892-2d24-11ec-9852-e336d7653ff6')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fd2e9892-2d24-11ec-9852-e336d7653ff6')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -6474,7 +6474,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fdf780c2-2d24-11ec-9852-dfde3ae0f405')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fdf780c2-2d24-11ec-9852-dfde3ae0f405')/Things",
-      "source": null
+      "source": "USGS"
     },
     {
       "description": "Stream",
@@ -6603,7 +6603,7 @@
       ],
       "HistoricalLocations@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fdf780c2-2d24-11ec-9852-dfde3ae0f405')/HistoricalLocations",
       "Things@iot.navigationLink": "https://labs.waterdata.usgs.gov/sta/v1.1/Locations('fdf780c2-2d24-11ec-9852-dfde3ae0f405')/Things",
-      "source": null
+      "source": "USGS"
     }
   ]
 }
