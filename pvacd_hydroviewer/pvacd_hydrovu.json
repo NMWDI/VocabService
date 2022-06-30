@@ -1,0 +1,512 @@
+{
+  "locations": [
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9402,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.42966573225806,
+          32.880372093723246
+        ]
+      },
+      "name": "Zumwalt level-822322",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9402",
+        "source_id": 4538855792574464,
+        "hydrovu.description": "827176"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9402)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9390,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 4538855792574464
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9390)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14448,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14448)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9402)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9402)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9403,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.518961682916,
+          33.5924283752
+        ]
+      },
+      "name": "Transwestern Level 823779",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9403",
+        "source_id": 4586726273318912
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9403)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9391,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 4586726273318912
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9391)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14449,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14449)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9403)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9403)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9404,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.521,
+          32.98
+        ]
+      },
+      "name": "Cottonwood level-821572",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9404",
+        "source_id": 4803999894339584,
+        "hydrovu.description": "827425"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9404)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9392,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 4803999894339584
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9392)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14450,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14450)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9404)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9404)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9405,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.512,
+          33.438
+        ]
+      },
+      "name": "Berrendo-Smith level-823069",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9405",
+        "source_id": 4847162637942784,
+        "hydrovu.description": "827140"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9405)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9393,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 4847162637942784
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9393)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14451,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14451)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9405)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9405)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9406,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.46614919662,
+          33.373029848637
+        ]
+      },
+      "name": "LFD Level 826171",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9406",
+        "source_id": 5597309948919808,
+        "hydrovu.description": "826171"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9406)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9394,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 5597309948919808
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9394)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14452,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14452)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9406)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9406)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9407,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.37718963623047,
+          33.07014846801758
+        ]
+      },
+      "name": "Bartlett level-869095",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9407",
+        "source_id": 5712700545171456,
+        "hydrovu.description": "827276"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9407)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9395,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 5712700545171456
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9395)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14453,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14453)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9407)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9407)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9408,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.519169218838,
+          33.613507745151
+        ]
+      },
+      "name": "Poe Corn Level 819270",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9408",
+        "source_id": 6054555505917952
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9408)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9396,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 6054555505917952
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9396)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14454,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14454)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9408)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9408)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9409,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.42866296875,
+          32.77940913106837
+        ]
+      },
+      "name": "Artesia A Level-822328",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9409",
+        "source_id": 6256156690612224,
+        "hydrovu.description": "826496"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9409)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9397,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 6256156690612224
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9397)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14455,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14455)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9409)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9409)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9410,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.415,
+          33.257
+        ]
+      },
+      "name": "Orchard Park Level-826157",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9410",
+        "source_id": 6505900885147648,
+        "hydrovu.description": "827459"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9410)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9398,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 6505900885147648
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9398)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14456,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14456)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9410)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9410)/Things",
+      "source": "PVACD"
+    },
+    {
+      "description": "Location of well where measurements are made",
+      "encodingType": "application/vnd.geo+json",
+      "@iot.id": 9411,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          -104.43742880081622,
+          33.16818643207846
+        ]
+      },
+      "name": "Greenfield level-822321",
+      "properties": {
+        "agency": "PVACD",
+        "geoconnex": "https://geoconnex.us/nmwdi/st/locations/9411",
+        "source_id": 6518424804261888,
+        "hydrovu.description": "827284"
+      },
+      "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9411)",
+      "Things": [
+        {
+          "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+          "@iot.id": 9399,
+          "name": "Water Well",
+          "properties": {
+            "agency": "PVACD",
+            "source_id": 6518424804261888
+          },
+          "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Things(9399)",
+          "Datastreams": [
+            {
+              "description": "Measurement of groundwater depth in a water well, as measured below ground surface",
+              "@iot.id": 14457,
+              "name": "Groundwater Levels",
+              "observationType": "http://www.opengis.net/def/observationType/OGC-OM/2.0/OM_Measurement",
+              "properties": {},
+              "resultTime": null,
+              "@iot.selfLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Datastreams(14457)",
+              "unitOfMeasurement": {
+                "name": "Foot",
+                "symbol": "ft",
+                "definition": "http://www.qudt.org/vocab/unit/FT"
+              }
+            }
+          ]
+        }
+      ],
+      "HistoricalLocations@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9411)/HistoricalLocations",
+      "Things@iot.navigationLink": "https://st2.newmexicowaterdata.org/FROST-Server/v1.1/Locations(9411)/Things",
+      "source": "PVACD"
+    }
+  ]
+}
