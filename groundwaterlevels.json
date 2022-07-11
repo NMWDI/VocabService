@@ -3,11 +3,37 @@
     "elevation": {
       "required": true,
       "type": "number"
+      "example": 4000
+    },
+    "elevation_unit": {
+      "required": true,
+      "type": "string",
+      "example": "https://www.qudt.org/vocab/unit/FT"
     }
   },
-  "thing": {"Water Well": {"wellscreens": {"required": true, "type": object},
-                          "welldepth": {"required":true, "type": "number"},
-                          "welldepth_unit": {"required": true, "type": "string"},
-                          "geologic_formation": {"required": true, "type": "string"},
-           "Stream Gage": {},}
+  "thing": {
+    "Water Well": {
+      "wellscreens": {
+        "required": true,
+        "type": "object"
+        "example": null
+      },
+      "welldepth": {
+        "required": true,
+        "type": "number"
+        "example": 100
+      },
+      "welldepth_unit": {
+        "required": true,
+        "type": "string",
+        "example": "https://www.qudt.org/vocab/unit/FT"
+      },
+      "geologic_formation": {
+        "required": true,
+        "type": "string",
+        "example": "Foo"
+      }
+    },
+    "Stream Gage": {}
+  }
 }
