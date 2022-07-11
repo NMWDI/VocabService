@@ -1,2 +1,4 @@
 {"Groundwater Levels": true,
- "Raw Groundwater Levels": false}
+ "Groundwater Head": false,
+ "Raw Groundwater Depth": false,
+ "Adjusted Groundwater Head": false}
