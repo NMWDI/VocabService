@@ -1,0 +1,13 @@
+{
+  "location": {
+    "elevation": {
+      "required": true,
+      "type": "number"
+    }
+  },
+  "thing": {"Water Well": {"wellscreens": {"required": true, "type": object},
+                          "welldepth": {"required":true, "type": "number"},
+                          "welldepth_unit": {"required": true, "type": "string"},
+                          "geologic_formation": {"required": true, "type": "string"},
+           "Stream Gage": {},}
+}
