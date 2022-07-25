@@ -1,0 +1,51 @@
+{
+  "Locations": {
+    "name": {
+      "literals": [],
+      "fields": {
+        "NMBGMR": "PointID"
+      }
+    },
+    "descriptions": {
+      "literals": [],
+      "fields": []
+    }
+  },
+  "Things": {
+    "name": {
+      "literals": [
+        "Water Well",
+        "Stream Gauge"
+      ]
+    },
+    "descriptions": {
+      "literals": [
+        "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater"
+      ]
+    }
+  },
+  "Datastreams": {
+    "name": {
+      "literals": [
+        "Groundwater Levels"
+      ]
+    },
+    "descriptions": {
+      "literals": [
+        "Measurement of groundwater depth in a water well, as measured below ground surface"
+      ]
+    }
+  },
+  "ObservedProperties": {
+    "name": {
+      "literals": [
+        "Depth to Water Below Ground Surface"
+      ]
+    },
+    "descriptions": {
+      "literals": [
+        "depth to water below ground surface"
+      ]
+    }
+  }
+}
