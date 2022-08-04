@@ -38,6 +38,9 @@
       ]
     }
   },
+  "Obervations": {
+    "parameters": {"Groundwater Levels": ["DataSource", "MeasuringAgency"]}
+  },
   "ObservedProperties": {
     "name": {
       "literals": [
