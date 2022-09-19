@@ -1,56 +1,135 @@
-{"name":  {"NGWMN": {"field": "Site Name"},
-              "USGS":{"field":"station_nm"},
-              "NMBGMR": {"field": "PointID"},
-              "CABQ": {"field": "loc_name"},
-              "OSE": {"field": null}
-          },
- "description": {"NGWMN": null,
-                "USGS": null,
-                "NMBGMR": "Location of well where measurements are made",
-                "CABQ": "Location of well where measurements are made",
-                "OSE": null},
- "latitude": {"NGWMN": {"field": "Dec Lat Va"},
-              "USGS":{"field":"dec_lat_va"},
-              "NMBGMR": {"field": "latitude"},
-              "CABQ": {"field": "latitude"},
-              "OSE": {"field": "Latitude"}
-             }, 
- "longitude": {"NGWMN": {"field": "Dec Long Va"},
-              "USGS":{"field":"dec_long_va"},
-              "NMBGMR": {"field": "longitude"},
-              "CABQ": {"field": "longitude"},
-              "OSE": {"field": "Longitude"}
-             }, 
-"properties": {"agency_code": {"NGWMN": {"field":"Agency Cd"}, 
-                               "USGS":{"field":"agency_cd"}, 
-                               "NMBGMR": "NMBGMR", "CABQ": 
-                               "CABQ", 
-                               "OSE": "OSE"},
-               "site_number": {"NGWMN": {"field":"Site No"},
-                               "USGS":{"field":"site_no"},
-                               "NMBGMR": {"field":"PointID"}, 
-                               "CABQ": {"field":"sys_loc_code"}},
-               "agency_name": {"NGWMN":{"field":"Agency Nm"},
-                               "USGS": "United States Geological Survey", 
-                               "NMBGMR": "New Mexico Bureau of Geology and Mineral Resources", 
-                               "CABQ": "City of Albuquerque",
-                               "OSE": "New Mexico Office of State Engineer"},
-              "horizontal_datum": {"NGWMN": {"field": "Horz Datum"},
-                                   "USGS":{"field":"dec_coord_datum_cd"},
-                                   "NMBGMR": null,
-                                   "CABQ": null,
-                                   "OSE": null},
-               "altitude": {"NGWMN": {"field": "Alt Va"},
-                            "USGS": {"field": "alt_va"},
-                            "NMBGMR": {"field": "Altitude"},
-                            "CABQ": {"field": "exact_elev"},
-                            "OSE": {"field": "Groundwater Elevation"}
-                           },
-               "site_type": {"NGWMN": {"field": "Site Type"},
-                             "USGS": {"field": "site_tp_cd"},
-                             "NMBGMR": null,
-                             "CABQ": null,
-                             "OSE": null
-                           } 
-              }
+{
+  "name": {
+    "NGWMN": {
+      "field": "Site Name"
+    },
+    "USGS": {
+      "field": "station_nm"
+    },
+    "NMBGMR": {
+      "field": "PointID"
+    },
+    "CABQ": {
+      "field": "loc_name"
+    },
+    "OSE": {
+      "field": null
+    }
+  },
+  "description": {
+    "NGWMN": null,
+    "USGS": null,
+    "NMBGMR": "Location of well where measurements are made",
+    "CABQ": "Location of well where measurements are made",
+    "OSE": null
+  },
+  "latitude": {
+    "NGWMN": {
+      "field": "Dec Lat Va"
+    },
+    "USGS": {
+      "field": "dec_lat_va"
+    },
+    "NMBGMR": {
+      "field": "latitude"
+    },
+    "CABQ": {
+      "field": "latitude"
+    },
+    "OSE": {
+      "field": "Latitude"
+    }
+  },
+  "longitude": {
+    "NGWMN": {
+      "field": "Dec Long Va"
+    },
+    "USGS": {
+      "field": "dec_long_va"
+    },
+    "NMBGMR": {
+      "field": "longitude"
+    },
+    "CABQ": {
+      "field": "longitude"
+    },
+    "OSE": {
+      "field": "Longitude"
+    }
+  },
+  "properties": {
+    "agency_code": {
+      "NGWMN": {
+        "field": "Agency Cd"
+      },
+      "USGS": {
+        "field": "agency_cd"
+      },
+      "NMBGMR": "NMBGMR",
+      "CABQ": "CABQ",
+      "OSE": "OSE"
+    },
+    "site_number": {
+      "NGWMN": {
+        "field": "Site No"
+      },
+      "USGS": {
+        "field": "site_no"
+      },
+      "NMBGMR": {
+        "field": "PointID"
+      },
+      "CABQ": {
+        "field": "sys_loc_code"
+      }
+    },
+    "agency_name": {
+      "NGWMN": {
+        "field": "Agency Nm"
+      },
+      "USGS": "United States Geological Survey",
+      "NMBGMR": "New Mexico Bureau of Geology and Mineral Resources",
+      "CABQ": "City of Albuquerque",
+      "OSE": "New Mexico Office of State Engineer"
+    },
+    "horizontal_datum": {
+      "NGWMN": {
+        "field": "Horz Datum"
+      },
+      "USGS": {
+        "field": "dec_coord_datum_cd"
+      },
+      "NMBGMR": null,
+      "CABQ": null,
+      "OSE": null
+    },
+    "altitude": {
+      "NGWMN": {
+        "field": "Alt Va"
+      },
+      "USGS": {
+        "field": "alt_va"
+      },
+      "NMBGMR": {
+        "field": "Altitude"
+      },
+      "CABQ": {
+        "field": "exact_elev"
+      },
+      "OSE": {
+        "field": "Groundwater Elevation"
+      }
+    },
+    "site_type": {
+      "NGWMN": {
+        "field": "Site Type"
+      },
+      "USGS": {
+        "field": "site_tp_cd"
+      },
+      "NMBGMR": null,
+      "CABQ": null,
+      "OSE": null
+    }
+  }
 }
