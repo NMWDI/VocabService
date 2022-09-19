@@ -1,0 +1,38 @@
+{
+  "name": "Water Well",
+  "description": "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater",
+  "properties": {
+    "geologic_formation": {"NGWMN": null,
+                          "USGS": null,
+                          "NMBGMR": {"field": "GeologicFormation"},
+                          "CABQ": null,
+                          "OSE": null},
+    "use": {"NGWMN": null, 
+            "USGS": null,
+            "NMBGMR": {"field": "Use"},
+            "CABQ": null,
+            "OSE": null},
+    "status": {"NGWMN": null, 
+            "USGS": null,
+            "NMBGMR": {"field": "Status"},
+            "CABQ": null,
+            "OSE": null},
+    "well_depth": {
+      "NGWMN": {
+        "field": "Well Depth"
+      },
+      "USGS": {
+        "field": "well_depth_va"
+      },
+      "NMBGMR": {
+        "field": "WellDepth"
+      },
+      "CABQ": {
+        "field": "measured_depth_of_well"
+      },
+      "OSE": {
+        "field": "Total Depth (feet)"
+      }
+    }
+  }
+}
