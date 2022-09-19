@@ -1,1 +1,4 @@
-
+{
+  {"RG-FOO-bar": {"NMBGMR": "NM-Foo-bar", "USGS": "USGS-10213112312312"},
+  {"RG-Moo-bag": {"NMBBMR": "NM-00123", "USGS": "USGS-12313131313123", "NMED": 31231}
+}
