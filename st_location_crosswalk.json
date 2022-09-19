@@ -45,6 +45,12 @@
                             "NMBGMR": {"field": "Altitude"},
                             "CABQ": {"field": "exact_elev"},
                             "OSE": {"field": "Groundwater Elevation"}
-                           }
+                           },
+               "site_type": {"NGWMN": {"field": "Site Type"},
+                             "USGS": {"field": "site_tp_cd"},
+                             "NMBGMR": null,
+                             "CABQ": null,
+                             "OSE": null
+                           } 
               }
 }
