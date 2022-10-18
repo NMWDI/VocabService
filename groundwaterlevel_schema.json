@@ -1,0 +1,119 @@
+{
+  "$id": "https://vocab.newmexicowaterdata.org/schemas/groundwaterlevels",
+  "title": "NMWDI Groundwater levels Schema",
+  "description": "",
+  "vesrion": "0.0.1",
+  "type": "object",
+  "Locations": {
+    "name": {
+      "type": "string",
+      "description": "unique human readable identifier, e.g PointID"
+    },
+    "description": {
+      "type": "string",
+      "description": "description of this location"
+    },
+    "properties": {
+      "type": "object",
+      "description": "a flexible place to associate additional attributes with a location",
+      "attributes": [
+        {
+          "name": "elevation",
+          "type": "number",
+          "description": ""
+        },
+        {
+          "name": "elevation_unit",
+          "type": "string",
+          "enum": [
+            "MASL",
+            "FASL"
+          ]
+        },
+        {
+          "name": "dataprovider",
+          "type": "string",
+          "description": "agency that measured this data"
+        }
+      ]
+    }
+  },
+  "Things": {
+    "name": {
+      "enum": [
+        "Water Well",
+        "Stream Gauge"
+      ]
+    },
+    "description": {
+      "enum": [
+        "Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater"
+      ]
+    },
+    "properties": {
+      "type": "object",
+      "description": "a flexible place to associate additional attributes with a thing",
+      "attributes": [
+        {
+          "name": "welldepth",
+          "type": "number",
+          "description": ""
+        },
+        {
+          "name": "welldepth_unit",
+          "type": "string",
+          "enum": [
+            "FTBGS",
+            "MBGS"
+          ],
+          "description": ""
+        },
+        {
+          "name": "geologic_formation",
+          "type": "string",
+          "description": ""
+        }
+      ]
+    }
+  },
+  "Datastreams": {
+    "name": {
+      "type": "string",
+      "description": "name of the datastream",
+      "enum": [
+        "Groundwater Levels"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "description for this datastream",
+      "enum": [
+        "Measurement of groundwater depth in a water well, as measured below ground surface"
+      ]
+    }
+  },
+  "Obervations": {
+    "parameters": {
+      "Groundwater Levels": [
+        "DataSource",
+        "MeasuringAgency"
+      ]
+    }
+  },
+  "ObservedProperties": {
+    "name": {
+      "description": "name of the property being observed",
+      "type": "string",
+      "enum": [
+        "Depth to Water Below Ground Surface"
+      ]
+    },
+    "description": {
+      "type": "string",
+      "description": "description of the property being observed",
+      "enum": [
+        "depth to water below ground surface"
+      ]
+    }
+  }
+}
