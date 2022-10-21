@@ -1,0 +1,41 @@
+{
+  "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
+  "title": "NMWDI Location Schema",
+  "description": "",
+  "vesrion": "0.0.1",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "unique human readable identifier, e.g PointID"
+    },
+    "description": {
+      "type": "string",
+      "description": "description of this location"
+    },
+    "properties": {
+      "type": "object",
+      "description": "a flexible place to associate additional attributes with a location",
+      "attributes": [
+        {
+          "name": "elevation",
+          "type": "number",
+          "description": ""
+        },
+        {
+          "name": "elevation_unit",
+          "type": "string",
+          "enum": [
+            "MASL",
+            "FASL"
+          ]
+        },
+        {
+          "name": "dataprovider",
+          "type": "string",
+          "description": "agency that measured this data"
+        }
+      ]
+    }
+  }
+}

@@ -4,7 +4,7 @@
   "description": "",
   "vesrion": "0.0.1",
   "type": "object",
-  "Locations": {
+  "properties": {
     "name": {
       "type": "string",
       "description": "unique human readable identifier, e.g PointID"
@@ -37,7 +37,9 @@
         }
       ]
     }
-  },
+  }
+   
+  }
   "Things": {
     "name": {
       "enum": [
