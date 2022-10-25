@@ -34,6 +34,7 @@
           "name": "dataprovider",
           "type": "string",
           "description": "agency that measured this data"
+          "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]
         }
       ]
     }
