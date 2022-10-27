@@ -4,6 +4,7 @@
   "description": "",
   "vesrion": "0.0.1",
   "type": "object",
+  "required": ["name", "description", "properties"],
   "properties": {
     "name": {
       "type": "string",
