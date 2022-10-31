@@ -5,55 +5,54 @@
     "version": "0.0.1",
     "type": "object",
     "required": ["name", "description", "properties"],
-    "locationID": {"fields": {"NMBGMR": "PointID"},
-                   "properties": {
-                       "name": {
-                           "type": "string",
-                           "description": "name of a Thing for groundwater levels should be `Water Well`"
-                       },
-                       "description": {
-                           "type": "string",
-                           "description": "description of this location"
-                       },
-                       "properties": {
-                           "type": "object",
-                           "description": "a flexible place to associate additional attributes with a thing",
-                           "required": ["use", "status", "welldepth", "welldepth_unit", "geologic_formation"],
-                           "properties": {
-                               "use": {"type": "string",
-                                       "enum": ["Open, unequipped well", "Commercial", "Domestic",
-                                                "Power generation", "Irrigation", "Livestock", "Mining", "Industrial",
-                                                "Observation", "Public supply", "Shared domestic", "Institutional",
-                                                "Unknown", "Unused"],
-                                       "description": "",
-                                       "fields": {"NMBGMR": "CurrentUseDescription"}},
-                               "status": {"type": "string",
-                                          "enum": ["Abandoned", "Active, pumping well",
-                                                   "Destroyed, exists but not usable",
-                                                   "Inactive, exists but not used", "Unknown"],
-                                          "description": "",
-                                          "fields": {"NMBGMR": "StatusDescription"}},
-                               "welldepth": {
-                                   "type": "number",
-                                   "description": "",
-                                   "fields": {"NMBGMR": "WellDepth"},
-                               },
-                               "welldepth_unit": {
-                                   "type": "string",
-                                   "enum": [
-                                       "FTBGS",
-                                       "MBGS"
-                                   ],
-                                   "description": "",
-                                   "fields": {"NMBGMR": "<FTBGS>"}
-                               },
-                               "geologic_formation": {
-                                   "type": "string",
-                                   "description": "",
-                                   "fields": {"NMBGMR": "FormationZone"}
-                               }
-                           }
-                       }
-                   }
+    "locationID": {"fields": {"NMBGMR": "PointID"}},
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "name of a Thing for groundwater levels should be `Water Well`"
+        },
+        "description": {
+            "type": "string",
+            "description": "description of this location"
+        },
+        "properties": {
+            "type": "object",
+            "description": "a flexible place to associate additional attributes with a thing",
+            "required": ["use", "status", "welldepth", "welldepth_unit", "geologic_formation"],
+            "properties": {
+                "use": {"type": "string",
+                        "enum": ["Open, unequipped well", "Commercial", "Domestic",
+                                 "Power generation", "Irrigation", "Livestock", "Mining", "Industrial",
+                                 "Observation", "Public supply", "Shared domestic", "Institutional",
+                                 "Unknown", "Unused"],
+                        "description": "",
+                        "fields": {"NMBGMR": "CurrentUseDescription"}},
+                "status": {"type": "string",
+                           "enum": ["Abandoned", "Active, pumping well",
+                                    "Destroyed, exists but not usable",
+                                    "Inactive, exists but not used", "Unknown"],
+                           "description": "",
+                           "fields": {"NMBGMR": "StatusDescription"}},
+                "welldepth": {
+                    "type": "number",
+                    "description": "",
+                    "fields": {"NMBGMR": "WellDepth"},
+                },
+                "welldepth_unit": {
+                    "type": "string",
+                    "enum": [
+                        "FTBGS",
+                        "MBGS"
+                    ],
+                    "description": "",
+                    "fields": {"NMBGMR": "<FTBGS>"}
+                },
+                "geologic_formation": {
+                    "type": "string",
+                    "description": "",
+                    "fields": {"NMBGMR": "FormationZone"}
                 }
+            }
+        }
+    }
 }
