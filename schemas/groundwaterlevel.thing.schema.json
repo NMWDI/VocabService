@@ -18,6 +18,7 @@
             "type": "object",
             "description": "a flexible place to associate additional attributes with a thing",
             "required": ["welldepth", "welldepth_unit", "geologic_formation"],
+            "properties": {
             "welldepth": {
                 "type": "number",
                 "description": ""
@@ -36,5 +37,6 @@
                     "description": ""
                 }
         }
+       }
     }
 }
