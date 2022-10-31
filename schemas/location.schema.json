@@ -17,12 +17,13 @@
     "properties": {
       "type": "object",
       "description": "a flexible place to associate additional attributes with a location",
-      "dataprovider": {"type": "string", 
+      "properties":{
+        "dataprovider": {"type": "string", 
                       "description": "agency that measured this data",
                       "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]},
-      "elevation": {"type": "number"},
-      "elevation_unit": {"type": "string",
-                  "enum": ["MASL", "FASL"]},
+        "elevation": {"type": "number"},
+        "elevation_unit": {"type": "string",
+                  "enum": ["MASL", "FASL"]}},
       "required": ["elevation", "elevation_unit", "dataprovider"]
     }
   }
