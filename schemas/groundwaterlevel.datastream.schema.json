@@ -1,0 +1,27 @@
+{
+    "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_datastream",
+    "title": "NMWDI Groundwater Level Datastream Schema",
+    "description": "",
+    "version": "0.0.1",
+    "type": "object",
+    "required": ["name", "description", "properties"],
+    "locationID": {"fields": {"NMBGMR": "PointID"}},
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "name of a Thing for groundwater levels should be `Water Well`",
+            "fields":  {"default": "<Groundwater Levels>"}
+        },
+        "description": {
+            "type": "string",
+            "description": "description of this location",
+            "fields": {"default": "<Measurement of groundwater depth in a water well, as measured below ground surface>"}
+        },
+        "properties": {
+            "type": "object",
+            "description": "a flexible place to associate additional attributes with a thing",
+            "required": [],
+            "properties": {}
+        }
+    }
+}

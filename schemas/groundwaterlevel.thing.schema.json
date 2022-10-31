@@ -17,11 +17,13 @@
     "properties": {
         "name": {
             "type": "string",
-            "description": "name of a Thing for groundwater levels should be `Water Well`"
+            "description": "name of a Thing for groundwater levels should be `Water Well`",
+            "fields": {"default": "<Water Well>"}
         },
         "description": {
             "type": "string",
-            "description": "description of this location"
+            "description": "description of this location",
+            "fields": {"default": "<Well drilled or set into subsurface for the purposes of pumping water or monitoring groundwater>"}
         },
         "properties": {
             "type": "object",
