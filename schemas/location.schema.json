@@ -12,7 +12,8 @@
     },
     "description": {
       "type": "string",
-      "description": "description of this location"
+      "description": "description of this location",
+      "fields": {"NMBGMR": "<Location of a Thing (well, stream, ditch, etc) were a measurement is made>"}
     },
     "properties": {
       "type": "object",
