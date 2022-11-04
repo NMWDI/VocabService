@@ -9,12 +9,13 @@
     "location": {"fields": {"NMBGMR": "UTM(Easting,Northing,<13>)"}},
     "name": {
       "type": "string",
-      "description": "unique human readable identifier, e.g PointID"
+      "description": "unique human readable identifier, e.g PointID",
+      "fields": {"NMBGMR": "PointID", "EBID": "site_id"}
     },
     "description": {
       "type": "string",
       "description": "description of this location",
-      "fields": {"NMBGMR": "<Location of a Thing (well, stream, ditch, etc) were a measurement is made>"}
+      "fields": {"default": "<Location of a Thing (well, stream, ditch, etc) were measurements are made>"}
     },
     "properties": {
       "type": "object",
