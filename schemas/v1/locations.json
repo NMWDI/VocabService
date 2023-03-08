@@ -1,30 +1,32 @@
-{
-  "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
-  "title": "NMWDI Location Schema",
-  "description": "",
-  "vesrion": "1.0.0",
-  "type": "object",
-  "required": ["name", "description", "properties"],
-  "properties": {
-    "name": {
-      "type": "string",
-      "description": "unique human readable identifier, e.g PointID",
-    },
-    "description": {
-      "type": "string",
-      "description": "description of this location",
-    },
+ {
+    "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
+    "title": "NMWDI Location Schema",
+    "description": "",
+    "vesrion": "1.0.0",
+    "type": "object",
+    "required": ["name", "description", "properties"],
     "properties": {
-      "type": "object",
-      "description": "a flexible place to associate additional attributes with a location",
-      "properties":{
-        "dataprovider": {"type": "string", 
-                      "description": "agency that measured this data",
-                      "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]},
-        "elevation": {"type": "number", "fields": {"NMBGMR": "Altitude"}},
-        "elevation_unit": {"type": "string",
-                  "enum": ["MASL", "FASL"],
-      "required": ["elevation", "elevation_unit", "dataprovider"]
+        "name": {
+            "type": "string",
+            "description": "unique human readable identifier, e.g PointID",
+        },
+        "description": {
+            "type": "string",
+            "description": "description of this location",
+        },
+        "properties": {
+            "type": "object",
+            "description": "a flexible place to associate additional attributes with a location",
+            "properties":{
+                "dataprovider": {"type": "string",
+                                 "description": "agency that measured this data",
+                                 "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]},
+                "elevation": {"type": "number", "fields": {"NMBGMR": "Altitude"}},
+                "elevation_unit": {"type": "string",
+                                   "enum": ["MASL", "FASL"],
+                                   "required": ["elevation", "elevation_unit", "dataprovider"]
+                                   }
+            }
+        }
     }
-  }
 }
