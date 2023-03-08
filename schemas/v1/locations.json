@@ -1,4 +1,4 @@
- {
+{
     "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
     "title": "NMWDI Location Schema",
     "description": "",
@@ -17,14 +17,15 @@
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a location",
-            "properties":{
+            "required": ["elevation", "elevation_unit", "dataprovider"],
+            "properties": {
                 "dataprovider": {"type": "string",
                                  "description": "agency that measured this data",
-                                 "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]},
-                "elevation": {"type": "number", "fields": {"NMBGMR": "Altitude"}},
+                                 "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]
+                                 },
+                "elevation": {"type": "number"},
                 "elevation_unit": {"type": "string",
                                    "enum": ["MASL", "FASL"],
-                                   "required": ["elevation", "elevation_unit", "dataprovider"]
                                    }
             }
         }
