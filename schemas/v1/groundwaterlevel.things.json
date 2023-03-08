@@ -134,8 +134,8 @@
               "screen_units": {
                 "type": "string",
                 "enum": [
-                  "ft",
-                  "m"
+                  "ftbgs",
+                  "mbgs"
                 ]
               }
             }
