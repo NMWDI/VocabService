@@ -1,0 +1,105 @@
+{
+    "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_thing",
+    "title": "NMWDI Groundwater Level Thing Schema",
+    "description": "",
+    "version": "1.0",
+    "type": "object",
+    "required": [
+        "name",
+        "description",
+        "properties"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "name of a Thing for groundwater levels should be `Water Well`",
+        },
+        "description": {
+            "type": "string",
+            "description": "description of this location",
+        },
+        "properties": {
+            "type": "object",
+            "description": "a flexible place to associate additional attributes with a thing",
+            "required": [
+                "use",
+                "status",
+                "well_depth",
+                "well_depth_units",
+                "geologic_formation"
+            ],
+            "properties": {
+                "use": {
+                    "type": "string",
+                    "enum": [
+                        "Open, unequipped well",
+                        "Commercial",
+                        "Domestic",
+                        "Power generation",
+                        "Irrigation",
+                        "Livestock",
+                        "Mining",
+                        "Industrial",
+                        "Observation",
+                        "Public supply",
+                        "Shared domestic",
+                        "Institutional",
+                        "Unknown",
+                        "Unused"
+                    ],
+                    "description": "",
+                },
+                "status": {
+                    "type": "string",
+                    "enum": [
+                        "Abandoned",
+                        "Active, pumping well",
+                        "Destroyed, exists but not usable",
+                        "Inactive, exists but not used",
+                        "Unknown"
+                    ],
+                    "description": "",
+                },
+                "well_depth": {
+                    "type": "number",
+                    "description": "",
+                },
+                "well_depth_units": {
+                    "type": "string",
+                    "enum": [
+                        "ftbgs",
+                        "mbgs"
+                    ],
+                    "description": "",
+                },
+                "geologic_formation": {
+                    "type": "string",
+                    "description": "",
+                },
+                "screens": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "screen_bottom",
+                            "screen_top",
+                            "screen_units"
+                        ],
+                        "properties": {
+                            "screen_bottom": {
+                                "type": "number"
+                            },
+                            "screen_top": {
+                                "type": "number"
+                            },
+                            "screen_units": {
+                            "type": "string",
+                            "enum": ["ft", "m"]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
