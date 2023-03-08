@@ -17,16 +17,24 @@
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a location",
-            "required": ["elevation", "elevation_unit", "dataprovider"],
+            "required": ["elevation", "agency", "collection_agency"],
             "properties": {
-                "dataprovider": {"type": "string",
-                                 "description": "agency that measured this data",
-                                 "enum": ["OSE", "CABQ", "EBID", "PVACD", "NMBGMR", "OSE-Roswell", "ISC_SEVEN_RIVERS"]
-                                 },
-                "elevation": {"type": "number"},
-                "elevation_unit": {"type": "string",
-                                   "enum": ["MASL", "FASL"],
-                                   }
+                "elevation": {"type": "object",
+                              "properties": {"value": {"type":"number"},
+                                             "datum": {"type": "string"},
+                                             "units": {"type": "string"}},
+                              "required": ["value", "units"]
+                              },
+                "agency": {"type": "string"},
+                "collection_agency": {"type": "string"},
+                "same_as": {"type": "object",
+                            "properties": {"id": {"type": "string"},
+                                           "agency": {"type": "string"},
+                                           "url": {"type": "string"}},
+                            "required": {"id", "agency"}},
+                "project_name": {"type": "string"},
+                "geoconnex": {"type": "string"}
+
             }
         }
     }
