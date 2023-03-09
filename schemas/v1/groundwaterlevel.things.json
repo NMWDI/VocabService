@@ -21,8 +21,10 @@
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a thing",
-            "required": ["well_depth", "kind", "current_use", "status"],
+            "required": ["well_depth", "kind", "current_use", "status", "agency"],
             "properties": {
+                "agency": {"type": "string"},
+                "ose_well_tag": {"type": "string"},
                 "pod_file": {"type": "string"},
                 "pod_url": {"type": "string"},
                 "completion_date": {"type": "string"},
