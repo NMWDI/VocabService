@@ -78,7 +78,7 @@
                            "required": ["diameter", "units"]},
                 "aquifer": {"type": "string"},
                 "hole_depth": {"type": "object",
-                               "properties": {"value": {"type": 'number'},
+                               "properties": {"value": {"type": "number"},
                                               "units": {"type": "string",
                                                         "enum": ["ftbgs", "mbgs"]
                                                         }
