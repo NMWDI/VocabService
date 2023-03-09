@@ -1,147 +1,112 @@
 {
-  "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_thing",
-  "title": "NMWDI Groundwater Level Thing Schema",
-  "description": "",
-  "version": "1.0",
-  "type": "object",
-  "required": [
-    "name",
-    "description",
-    "properties"
-  ],
-  "properties": {
-    "name": {
-      "type": "string",
-      "description": "name of a Thing for groundwater levels should be `Water Well`"
-    },
-    "description": {
-      "type": "string",
-      "description": "description of this location"
-    },
+    "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_thing",
+    "title": "NMWDI Groundwater Level Thing Schema",
+    "description": "",
+    "version": "1.0",
+    "type": "object",
+    "required": [
+        "name",
+        "description",
+        "properties"
+    ],
     "properties": {
-      "type": "object",
-      "description": "a flexible place to associate additional attributes with a thing",
-      "required": [
-        "well_depth",
-        "kind"
-      ],
-      "properties": {
-        "pod_url": {
-          "type": "string"
+        "name": {
+            "type": "string",
+            "description": "name of a Thing for groundwater levels should be `Water Well`",
         },
-        "current_use": {
-          "type": "string",
-          "enum": [
-            "Open, unequipped well",
-            "Commercial",
-            "Domestic",
-            "Power generation",
-            "Irrigation",
-            "Livestock",
-            "Mining",
-            "Industrial",
-            "Observation",
-            "Public supply",
-            "Shared domestic",
-            "Institutional",
-            "Unknown",
-            "Unused"
-          ],
-          "description": ""
+        "description": {
+            "type": "string",
+            "description": "description of this location",
         },
-        "status": {
-          "type": "string",
-          "enum": [
-            "Abandoned",
-            "Active, pumping well",
-            "Destroyed, exists but not usable",
-            "Inactive, exists but not used",
-            "Unknown"
-          ],
-          "description": ""
-        },
-        "well_depth": {
-          "type": "object",
-          "properties": {
-            "value": {
-              "type": "number"
-            },
-            "units": {
-              "type": "string",
-              "enum": [
-                "ftbgs",
-                "mbgs"
-              ]
-            }
-          },
-          "required": [
-            "value",
-            "units"
-          ]
-        },
-        "kind": {
-          "type": "string"
-        },
-        "geologic_formation": {
-          "type": "string",
-          "description": ""
-        },
-        "casing": {
-          "type": "object",
-          "properties": {
-            "diameter": {
-              "type": "number"
-            },
-            "units": {
-              "type": "string"
-            }
-          },
-          "required": [
-            "diameter",
-            "units"
-          ]
-        },
-        "aquifer": {
-          "type": "string"
-        },
-        "hole_depth": {
-          "type": "object",
-          "properties": {
-            "value": {
-              "type": "number"
-            },
-            "units": {
-              "type": "string"
-            }
-          }
-        },
-        "screens": {
-          "type": "array",
-          "items": {
+        "properties": {
             "type": "object",
-            "required": [
-              "screen_bottom",
-              "screen_top",
-              "screen_units"
-            ],
+            "description": "a flexible place to associate additional attributes with a thing",
+            "required": ["well_depth", "kind", ],
             "properties": {
-              "screen_bottom": {
-                "type": "number"
-              },
-              "screen_top": {
-                "type": "number"
-              },
-              "screen_units": {
-                "type": "string",
-                "enum": [
-                  "ftbgs",
-                  "mbgs"
-                ]
-              }
+
+                "pod_url": {"type": "string"},
+                "current_use": {
+                    "type": "string",
+                    "enum": [
+                        "Open, unequipped well",
+                        "Commercial",
+                        "Domestic",
+                        "Power generation",
+                        "Irrigation",
+                        "Livestock",
+                        "Mining",
+                        "Industrial",
+                        "Observation",
+                        "Public supply",
+                        "Shared domestic",
+                        "Institutional",
+                        "Unknown",
+                        "Unused"
+                    ],
+                    "description": "",
+                },
+                "status": {
+                    "type": "string",
+                    "enum": [
+                        "Abandoned",
+                        "Active, pumping well",
+                        "Destroyed, exists but not usable",
+                        "Inactive, exists but not used",
+                        "Unknown"
+                    ],
+                    "description": "",
+                },
+                "well_depth": {"type": "object",
+                               "properties": {"value": {"type": "number"},
+                                              "units": {"type": "string",
+                                                        "enum": ["ftbgs", "mbgs"],
+                                                        }
+                                              },
+                               "required": ["value", "units"]
+                               },
+                "kind": {"type": "string"},
+                "geologic_formation": {
+                    "type": "string",
+                    "description": "",
+                },
+                "casing": {"type": "object",
+                           "properties": {"diameter": {"type": "number"},
+                                          "units": {"type": "string"},
+                                          },
+                           "required": ["diameter", "units"]},
+                "aquifer": {"type": "string"},
+                "hole_depth": {"type": "object",
+                               "properties": {"value": {"type": 'number'},
+                                              "units": {"type": "string",
+                                                        "enum": ["ftbgs", "mbgs"]
+                                                        }
+                                              },
+                               "required": ["value", "units"]
+                               },
+                "screens": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": [
+                            "bottom",
+                            "top",
+                            "units"
+                        ],
+                        "properties": {
+                            "bottom": {
+                                "type": "number"
+                            },
+                            "top": {
+                                "type": "number"
+                            },
+                            "units": {
+                                "type": "string",
+                                "enum": ["ftbgs", "mbgs"]
+                            }
+                        }
+                    }
+                }
             }
-          }
         }
-      }
     }
-  }
 }
