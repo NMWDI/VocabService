@@ -21,10 +21,12 @@
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a thing",
-            "required": ["well_depth", "kind", ],
+            "required": ["well_depth", "kind", "current_use", "status"],
             "properties": {
-
+                "pod_file": {"type": "string"},
                 "pod_url": {"type": "string"},
+                "completion_date": {"type": "string"},
+                "construction_method": {"type": "string"},
                 "current_use": {
                     "type": "string",
                     "enum": [
@@ -102,6 +104,9 @@
                             "units": {
                                 "type": "string",
                                 "enum": ["ftbgs", "mbgs"]
+                            },
+                            "description": {
+                                "type": "string"
                             }
                         }
                     }
