@@ -2,7 +2,7 @@
     "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_thing",
     "title": "NMWDI Groundwater Level Thing Schema",
     "description": "",
-    "version": "1.0",
+    "version": "0.0.1",
     "type": "object",
     "required": [
         "name",
