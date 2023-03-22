@@ -2,9 +2,9 @@
     "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
     "title": "NMWDI Location Schema",
     "description": "",
-    "vesrion": "1.0.0",
+    "vesrion": "0.0.2",
     "type": "object",
-    "required": ["name", "description", "properties"],
+    "required": ["name", "description", "properties", "location"],
     "properties": {
         "name": {
             "type": "string",
@@ -14,26 +14,29 @@
             "type": "string",
             "description": "description of this location",
         },
+
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a location",
-            "required": ["elevation", "agency", "collection_agency"],
+            "required": ["agency"],
             "properties": {
                 "elevation": {"type": "object",
-                              "properties": {"value": {"type":"number"},
-                                             "datum": {"type": "string"},
-                                             "units": {"type": "string"}},
-                              "required": ["value", "units"]
+                              "properties": {"accuracy": {"type":"number", "minimum": 0},
+                                             "source": {"type": "string",
+                                                        "enum": ["address", "map_interpolation", "gps", "PLSS", "survey"]}},
+                              "required": ["accuracy", "source"]
                               },
-                "agency": {"type": "string"},
-                "collection_agency": {"type": "string"},
+                "agency": {"type": "string",
+                           "enum": ["NMBGMR", "NMOSE", "NMENV", "NMEMRD", "CABQ", "ISC"]},
+                "collection_agency": {"type": "string",
+                           "enum": ["NMBGMR", "NMOSE", "NMENV", "NMEMRD", "CABQ", "ISC"]},
                 "same_as": {"type": "object",
                             "properties": {"id": {"type": "string"},
                                            "agency": {"type": "string"},
                                            "url": {"type": "string"}},
                             "required": {"id", "agency"}},
-                "project_name": {"type": "string"},
-                "geoconnex": {"type": "string"}
+                "geoconnex": {"type": "string"},
+                "location_source": {"type": "string", "enum": ["address", "map_interpolation", "gps", "PLSS", "survey"]}
 
             }
         }
