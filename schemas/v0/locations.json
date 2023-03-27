@@ -2,7 +2,7 @@
     "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
     "title": "NMWDI Location Schema",
     "description": "",
-    "vesrion": "0.0.2",
+    "vesrion": "0.0.3",
     "type": "object",
     "required": ["name", "description", "properties", "location"],
     "properties": {
@@ -23,20 +23,20 @@
                 "elevation": {"type": "object",
                               "properties": {"accuracy": {"type":"number", "minimum": 0},
                                              "source": {"type": "string",
-                                                        "enum": ["address", "map_interpolation", "gps", "PLSS", "survey"]}},
+                                                        "enum": ["address", "map_interpolation", "gps", "plss", "survey"]}},
                               "required": ["accuracy", "source"]
                               },
                 "agency": {"type": "string",
-                           "enum": ["NMBGMR", "NMOSE", "NMENV", "NMEMRD", "CABQ", "ISC"]},
+                           "enum": ["nmbgmr", "nnose", "nmenv", "nmemrd", "cabq", "isc", "ebid"]},
                 "collection_agency": {"type": "string",
-                           "enum": ["NMBGMR", "NMOSE", "NMENV", "NMEMRD", "CABQ", "ISC"]},
+                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid"]},
                 "same_as": {"type": "object",
                             "properties": {"id": {"type": "string"},
                                            "agency": {"type": "string"},
                                            "url": {"type": "string"}},
                             "required": {"id", "agency"}},
                 "geoconnex": {"type": "string"},
-                "location_source": {"type": "string", "enum": ["address", "map_interpolation", "gps", "PLSS", "survey"]}
+                "location_source": {"type": "string", "enum": ["address", "map_interpolation", "gps", "plss", "survey"]}
 
             }
         }
