@@ -1,0 +1,8 @@
+{
+   "$id": "https://vocab.newmexicowaterdata.org/schemas/datastream",
+    "title": "NMWDI Datastream Schema",
+    "description": "",
+    "vesrion": "0.0.1",
+    "type": "object",
+    "required": []
+}
