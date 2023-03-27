@@ -1,0 +1,12 @@
+{ "$id": "https://vocab.newmexicowaterdata.org/schemas/observation",
+    "title": "NMWDI Observation Schema",
+    "description": "",
+    "vesrion": "0.0.1",
+    "type": "object",
+    "required": ["result", "phenomenonTime", "parameters"],
+     "properties": {
+       "result": {"type": "number"},
+       "phenomenonTIme": {"type": "str"}     
+       "parameters": {"type": "object"}
+     }
+}
