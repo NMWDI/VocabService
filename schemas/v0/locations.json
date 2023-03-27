@@ -2,7 +2,7 @@
     "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
     "title": "NMWDI Location Schema",
     "description": "",
-    "vesrion": "0.0.3",
+    "vesrion": "0.0.4",
     "type": "object",
     "required": ["name", "description", "properties", "location"],
     "properties": {
@@ -18,7 +18,7 @@
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a location",
-            "required": ["agency"],
+            "required": ["agency", "location_source"],
             "properties": {
                 "elevation": {"type": "object",
                               "properties": {"accuracy": {"type":"number", "minimum": 0},
