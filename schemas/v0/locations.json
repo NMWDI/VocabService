@@ -27,9 +27,9 @@
                               "required": ["accuracy", "source"]
                               },
                 "agency": {"type": "string",
-                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid"]},
+                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid", "pvacd"]},
                 "collection_agency": {"type": "string",
-                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid"]},
+                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid", "pvacd"]},
                 "same_as": {"type": "object",
                             "properties": {"id": {"type": "string"},
                                            "agency": {"type": "string"},
