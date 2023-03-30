@@ -34,7 +34,7 @@
                             "properties": {"id": {"type": "string"},
                                            "agency": {"type": "string"},
                                            "url": {"type": "string"}},
-                            "required": {"id", "agency"}},
+                            "required": ["id", "agency"]},
                 "geoconnex": {"type": "string"},
                 "location_source": {"type": "string", "enum": ["address", "map_interpolation", "gps", "plss", "survey"]}
 
