@@ -1,29 +1,36 @@
 {
-    "$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_datastream",
-    "title": "NMWDI Groundwater Level Datastreams Schema",
-    "description": "",
-    "version": "0.0.1",
-    "type": "object",
-    "required": ["name", "description", "properties"],
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "name for Groundwater levels",
-            "enum": ["Groundwater Levels", "Groundwater Levels(Acoustic)", "Groundwater Levels(Pressure)"]
-        },
-        "description": {
-            "type": "string",
-            "description": "description of this location"
-        },
-        "properties": {
-            "required": ["agency", "topics"],
-            "type": "object",
-            "description": "a flexible place to associate additional attributes with a thing",
-            "properties": {
-                "topics": {"type": "array",
-                           "items": {"type": "string", "enum": ["Water Quantity", "Water Quality"]}},
-                "agency": {"type": "string"},
-            }
-        }
-    }
+	"$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_datastream",
+	"title": "NMWDI Groundwater Level Datastreams Schema",
+	"description": "",
+	"version": "0.0.1",
+	"type": "object",
+	"required": ["name", "description", "properties"],
+	"properties": {
+		"name": {
+			"type": "string",
+			"description": "name for Groundwater levels",
+			"enum": ["Groundwater Levels", "Groundwater Levels(Acoustic)", "Groundwater Levels(Pressure)"]
+		},
+		"description": {
+			"type": "string",
+			"description": "description of this location"
+		},
+		"properties": {
+			"required": ["agency", "topics"],
+			"type": "object",
+			"description": "a flexible place to associate additional attributes with a thing",
+			"properties": {
+				"topics": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"enum": ["Water Quantity", "Water Quality"]
+					}
+				},
+				"agency": {
+					"type": "string"
+				}
+			}
+		}
+	}
 }
