@@ -8,11 +8,11 @@
     "properties": {
         "name": {
             "type": "string",
-            "description": "unique human readable identifier, e.g PointID",
+            "description": "unique human readable identifier, e.g PointID"
         },
         "description": {
             "type": "string",
-            "description": "description of this location",
+            "description": "description of this location"
         },
 
         "properties": {
