@@ -14,7 +14,6 @@
             "type": "string",
             "description": "description of this location"
         },
-
         "properties": {
             "type": "object",
             "description": "a flexible place to associate additional attributes with a location",
