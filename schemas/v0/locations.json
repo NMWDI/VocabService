@@ -22,7 +22,7 @@
                 "elevation": {"type": "object",
                               "properties": {"accuracy": {"type":"number", "minimum": 0},
                                              "source": {"type": "string",
-                                                        "enum": ["address", "map_interpolation", "gps", "plss", "survey"]}},
+                                                        "enum": ["address", "map_interpolation", "gps", "plss", "survey", "open_meteo"]}},
                               "required": ["accuracy", "source"]
                               },
                 "agency": {"type": "string",
