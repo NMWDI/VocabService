@@ -2,7 +2,7 @@
 	"$id": "https://vocab.newmexicowaterdata.org/schemas/gwl_thing",
 	"title": "NMWDI Groundwater Level Thing Schema",
 	"description": "",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "object",
 	"required": [
 		"name",
@@ -44,31 +44,31 @@
 				"current_use": {
 					"type": "string",
 					"enum": [
-						"Open, unequipped well",
-						"Commercial",
-						"Domestic",
-						"Power generation",
-						"Irrigation",
-						"Livestock",
-						"Mining",
-						"Industrial",
-						"Observation",
-						"Public supply",
-						"Shared domestic",
-						"Institutional",
-						"Unknown",
-						"Unused"
+						"open_unequipped_well",
+						"commercial",
+						"domestic",
+						"power_generation",
+						"irrigation",
+						"livestock",
+						"mining",
+						"industrial",
+						"observation",
+						"public_supply",
+						"shared_domestic",
+						"institutional",
+						"unknown",
+						"unused"
 					],
 					"description": ""
 				},
 				"status": {
 					"type": "string",
 					"enum": [
-						"Abandoned",
-						"Active, pumping well",
-						"Destroyed, exists but not usable",
-						"Inactive, exists but not used",
-						"Unknown"
+						"abandoned",
+						"active_pumping well",
+						"destroyed_exists_but_not_usable",
+						"inactive_exists_but_not_used",
+						"unknown"
 					],
 					"description": ""
 				},

@@ -1,46 +1,141 @@
 {
-    "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
-    "title": "NMWDI Location Schema",
-    "description": "",
-    "vesrion": "0.0.5",
-    "type": "object",
-    "required": ["name", "description", "properties", "location"],
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "unique human readable identifier, e.g PointID"
+  "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
+  "title": "NMWDI Location Schema",
+  "description": "",
+  "vesrion": "0.0.5",
+  "type": "object",
+  "required": [
+    "name",
+    "description",
+    "properties",
+    "location"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "unique human readable identifier, e.g PointID"
+    },
+    "description": {
+      "type": "string",
+      "description": "description of this location"
+    },
+    "location": {
+      "type": "object",
+      "description": "the location of this point",
+      "required": [
+        "type",
+        "coordinates"
+      ],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "Point"
+          ]
         },
-        "description": {
-            "type": "string",
-            "description": "description of this location"
-        },
-        "properties": {
-            "type": "object",
-            "description": "a flexible place to associate additional attributes with a location",
-            "required": ["agency", "location_source"],
-            "properties": {
-                "elevation": {"type": "object",
-                              "properties": {"accuracy": {"type":"number", "minimum": 0},
-                                             "source": {"type": "string",
-                                                        "enum": ["unknown","address", "map_interpolation",
-                                                          "gps", "plss", "survey",
-                                                          "https://epqs.national_map.gov/v1/"]}},
-                              "required": ["accuracy", "source"]
-                              },
-                "agency": {"type": "string",
-                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid", "pvacd"]},
-                "collection_agency": {"type": "string",
-                           "enum": ["nmbgmr", "nmose", "nmenv", "nmemrd", "cabq", "isc", "ebid", "pvacd"]},
-                "same_as": {"type": "object",
-                            "properties": {"id": {"type": "string"},
-                                           "agency": {"type": "string"},
-                                           "url": {"type": "string"}},
-                            "required": ["id", "agency"]},
-                "geoconnex": {"type": "string"},
-                "location_source": {"type": "string", "enum": ["unknown","address", "map_interpolation",
-                  "gps", "plss","survey"]}
-
-            }
+        "coordinates": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": {
+            "type": "number"
+          }
         }
+      }
+    },
+    "properties": {
+      "type": "object",
+      "description": "a flexible place to associate additional attributes with a location",
+      "required": [
+        "agency",
+        "location_source",
+        "elevation"
+      ],
+      "properties": {
+        "elevation": {
+          "type": "object",
+          "properties": {
+            "accuracy": {
+              "type": "number",
+              "minimum": 0
+            },
+            "source": {
+              "type": "string",
+              "enum": [
+                "unknown",
+                "address",
+                "map_interpolation",
+                "gps",
+                "plss",
+                "survey",
+                "https://epqs.national_map.gov/v1/"
+              ]
+            }
+          },
+          "required": [
+            "accuracy",
+            "source"
+          ]
+        },
+        "agency": {
+          "type": "string",
+          "enum": [
+            "nmbgmr",
+            "nmose",
+            "nmenv",
+            "nmemrd",
+            "cabq",
+            "isc",
+            "ebid",
+            "pvacd"
+          ]
+        },
+        "collection_agency": {
+          "type": "string",
+          "enum": [
+            "nmbgmr",
+            "nmose",
+            "nmenv",
+            "nmemrd",
+            "cabq",
+            "isc",
+            "ebid",
+            "pvacd"
+          ]
+        },
+        "same_as": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "agency": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "agency"
+          ]
+        },
+        "geoconnex": {
+          "type": "string"
+        },
+        "location_source": {
+          "type": "string",
+          "enum": [
+            "unknown",
+            "address",
+            "map_interpolation",
+            "gps",
+            "plss",
+            "survey"
+          ]
+        }
+      }
     }
+  }
 }
