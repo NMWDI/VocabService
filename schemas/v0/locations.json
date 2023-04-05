@@ -2,7 +2,7 @@
     "$id": "https://vocab.newmexicowaterdata.org/schemas/location",
     "title": "NMWDI Location Schema",
     "description": "",
-    "vesrion": "0.0.4",
+    "vesrion": "0.0.5",
     "type": "object",
     "required": ["name", "description", "properties", "location"],
     "properties": {
@@ -22,7 +22,9 @@
                 "elevation": {"type": "object",
                               "properties": {"accuracy": {"type":"number", "minimum": 0},
                                              "source": {"type": "string",
-                                                        "enum": ["address", "map_interpolation", "gps", "plss", "survey", "open_meteo"]}},
+                                                        "enum": ["unknown","address", "map_interpolation",
+                                                          "gps", "plss", "survey",
+                                                          "https://epqs.national_map.gov/v1/"]}},
                               "required": ["accuracy", "source"]
                               },
                 "agency": {"type": "string",
@@ -35,7 +37,8 @@
                                            "url": {"type": "string"}},
                             "required": ["id", "agency"]},
                 "geoconnex": {"type": "string"},
-                "location_source": {"type": "string", "enum": ["address", "map_interpolation", "gps", "plss", "survey"]}
+                "location_source": {"type": "string", "enum": ["unknown","address", "map_interpolation",
+                  "gps", "plss","survey"]}
 
             }
         }
