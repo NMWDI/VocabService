@@ -57,7 +57,8 @@
 						"shared_domestic",
 						"institutional",
 						"unknown",
-						"unused"
+						"unused",
+						"monitoring"
 					],
 					"description": ""
 				},
